@@ -2762,8 +2762,6 @@ static void linphone_core_init(LinphoneCore * lc, LinphoneCoreCbs *cbs, LpConfig
 
 	lc->ringtoneplayer = linphone_ringtoneplayer_new();
 
-	sqlite3_bctbx_vfs_register(0);
-
 	lc->qrcode_rect.h = 0;
 	lc->qrcode_rect.w = 0;
 	lc->qrcode_rect.x = 0;
